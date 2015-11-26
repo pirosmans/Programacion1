@@ -239,3 +239,8 @@ _:-ms-input-placeholder, :root .demo-graph {
    height: 64px;
    /*comentario*/
 }
+
+.principal {
+  background-image: url("images/mapas.png");
+  background-position: repeat;
+}
