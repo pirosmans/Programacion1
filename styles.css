@@ -237,10 +237,27 @@ _:-ms-input-placeholder, :root .demo-graph {
 
 .logo {
    height: 64px;
-   /*comentario*/
+   color: #ffffff;
 }
 
 .principal {
   background-image: url("images/mapas.png");
   background-position: repeat;
+}
+
+.muestradatos {
+  height: 720px;
+  background-color: tomato;
+}
+
+.acento {
+  padding: 0;
+  margin:0;
+  background-color: teal;
+}
+
+.acento img {
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
 }
