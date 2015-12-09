@@ -261,3 +261,8 @@ _:-ms-input-placeholder, :root .demo-graph {
   margin: auto;
   margin-top: 20px;
 }
+
+.mdl-menu__item img {
+  height: 40px;
+  margin-top: 5px;
+}
