@@ -224,6 +224,7 @@ _:-ms-input-placeholder, :root .demo-graph {
           align-items: center;
 }
 .fondo {
+  height: 100%;
   background-color: #263238
 }
 
@@ -246,23 +247,36 @@ _:-ms-input-placeholder, :root .demo-graph {
 }
 
 .muestradatos {
-  height: 720px;
-  background-color: tomato;
+  height: 100% !important;
+  background-color: #263238;
 }
 
 .acento {
+  height: 100%;
   padding: 0;
   margin:0;
   background-color: teal;
 }
 
 .acento img {
-  height: 200px;
+  height: 180px;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .mdl-menu__item img {
   height: 40px;
-  margin-top: 5px;
+  margin: 5px auto;
+}
+
+@media (max-width: 1600px) {
+  .acento img {
+    height: 80px;
+  }
+
+  .mdl-menu__item img {
+    height: 40px;
+  }
+
 }
